@@ -1,0 +1,29 @@
+{
+  "populationSize": 10000,
+  "target": 370,
+  "initialRandomWeights": 0.3,
+  "weightLimit": 2430,
+  "oversizeChunkLimit": 0.16,
+  "generationCount": 100,
+  "elitism": 3,
+  "mutationChance": 0.3,
+  "multiply": 30,
+  "miningAreaProperties":[
+    {"lengthOfMiningArea": 20,
+      "charge": [
+        {"range": 2, "weight": 59, "amountOfOre": 7, "oversizeChunkPercentage": 0.12},
+        {"range": 2.4, "weight": 80, "amountOfOre": 20, "oversizeChunkPercentage": 0.13},
+        {"range": 3, "weight": 130, "amountOfOre": 70, "oversizeChunkPercentage": 0.4},
+        {"range": 4, "weight": 150, "amountOfOre": 75, "oversizeChunkPercentage": 0.21}]},
+    {"lengthOfMiningArea": 20,
+      "charge": [
+        {"range": 2, "weight": 46, "amountOfOre": 6, "oversizeChunkPercentage": 0.13},
+        {"range": 2.4, "weight": 80, "amountOfOre": 12, "oversizeChunkPercentage": 0.23},
+        {"range": 3, "weight": 130, "amountOfOre": 50, "oversizeChunkPercentage": 0.45},
+        {"range": 4, "weight": 150, "amountOfOre": 40, "oversizeChunkPercentage": 0.2}]},
+    {"lengthOfMiningArea": 20,
+      "charge": [
+        {"range": 3, "weight": 130, "amountOfOre": 36, "oversizeChunkPercentage": 0.25},
+        {"range": 4, "weight": 150, "amountOfOre": 30, "oversizeChunkPercentage": 0.2}]}
+  ]
+}
